@@ -1,8 +1,13 @@
-
 #section-1-header {
   /* border: 1px solid yellow; */
   background-color: rgb(51,51,51);
   display: flex;
+  padding: 15px;
+}
+
+#iconeTM {
+  width: 6%;
+  margin-left: 5%;
 }
 
 #h1-tom {
@@ -25,4 +30,17 @@
   list-style-type: none;
   padding: 0;
   width: 100%;
+}
+
+.li-links {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.li-links:hover {
+  font-weight: 800;
+  --neon-cor: rgb(208, 255, 0);
+  color: var(--neon-cor);
+  box-shadow: 0 0 10px var(--neon-cor), 0 0 40px var(--neon-cor), 0 0 80px var(--neon-cor);
 }

@@ -4,25 +4,26 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import MainPage from './Pages/MainPage';
 import './App.css';
+import tmIcon from './images/tmHeader.png';
 
 function App() {
   return (
     <div>
       <section id="section-1-header">
-        <h1 id="h1-tom">TM</h1>
+        <img id="iconeTM" src={ tmIcon } alt="iconeTM" />
         <nav id="nav-header">
           <ul id="list-links">
-            <li clas="li-links">
-              <Link to="/meu-portfolio">Início</Link>
+            <li>
+              <Link class="li-links" to="/meu-portfolio">Início</Link>
             </li>
-            <li clas="li-links">
-              <Link to="/meu-portfolio/abouteMe">Sobre mim</Link>
+            <li>
+              <Link class="li-links" to="/meu-portfolio/abouteMe">Sobre mim</Link>
             </li>
-            <li clas="li-links">
-              <Link to="/meu-portfolio/projects">Projetos</Link>
+            <li>
+              <Link class="li-links" to="/meu-portfolio/skills">Habilidades</Link>
             </li>
-            <li clas="li-links">
-              <Link to="/meu-portfolio/skills">Habilidades</Link>
+            <li>
+              <Link class="li-links" to="/meu-portfolio/projects">Projetos</Link>
             </li>
           </ul>
         </nav>
