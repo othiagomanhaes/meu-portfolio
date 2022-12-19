@@ -1,3 +1,32 @@
-div{
+#section-SobreMim {
   background-color: rgb(51,51,51);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#title-SobreMim {
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#texto-SobreMim {
+  /* border: 1px solid orange; */
+  font-size: 20px;
+  height: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 53%;
+}
+
+#minha-foto {
+  border-radius: 50px;
+  height: 29%;
+  align-items: center;
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
 }

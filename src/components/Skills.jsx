@@ -1,7 +1,11 @@
+import '../styles/Skills.css';
+
 function Skills() {
   return (
     <div>
-      <h3>Minhas Skills</h3>
+      <section id="section-skills">
+        <h3>Minhas Skills</h3>
+      </section>
     </div>
   );
 }

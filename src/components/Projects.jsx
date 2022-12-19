@@ -1,7 +1,11 @@
+import '../styles/Projects.css';
+
 function Projects() {
   return (
     <div>
-      <h3>Eu sou os projetos</h3>
+      <section id="section-projects">
+        <h3>Eu sou os projetos</h3>
+      </section>
     </div>
   );
 }

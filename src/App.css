@@ -1,3 +1,28 @@
-*{
+
+#section-1-header {
+  /* border: 1px solid yellow; */
   background-color: rgb(51,51,51);
+  display: flex;
+}
+
+#h1-tom {
+  margin-left: 5%;
+  font-size: 50px;
+}
+
+#nav-header {
+  align-items: center;
+  /* border: 1px solid blue; */
+  display: flex;
+  margin-left: 10%;
+  width: 50%;
+}
+
+#list-links {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
 }

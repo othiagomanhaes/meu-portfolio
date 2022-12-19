@@ -98,11 +98,12 @@ font-family: 'Quicksand', sans-serif; */
 #img-laptop {
   height: 100%;
   width: 100%;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
 }
 
-#img-laptop:hover {
+/* #img-laptop:hover {
+  transform:rotateY(180deg);
   border-radius: 50%;
   content: url('../images/euImg.jpg');
   opacity: 0.5;
-}
+} */
