@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
+
 #section-SobreMim {
+  /* border: 1px solid red; */
   background-color: rgb(51,51,51);
   display: flex;
   flex-direction: column;
@@ -7,6 +10,7 @@
 
 #title-SobreMim {
   margin-bottom: 30px;
+  font-family: 'Bungee Outline', cursive;
   font-size: 40px;
   text-align: center;
 }
@@ -14,10 +18,11 @@
 #texto-SobreMim {
   /* border: 1px solid orange; */
   font-size: 20px;
+  font-family: 'Nova Square', cursive;
   height: 37%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
   width: 53%;
 }
@@ -29,4 +34,13 @@
   width: 14%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.div-linha-2{
+  background-color: white;
+  height: 1px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }

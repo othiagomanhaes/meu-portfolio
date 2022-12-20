@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
+
 #section-1-header {
   /* border: 1px solid yellow; */
   background-color: rgb(51,51,51);
@@ -33,6 +35,7 @@
 }
 
 .li-links {
+  font-family: 'Bungee Outline', cursive; 
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -40,7 +43,8 @@
 
 .li-links:hover {
   font-weight: 800;
-  --neon-cor: rgb(208, 255, 0);
-  color: var(--neon-cor);
-  box-shadow: 0 0 10px var(--neon-cor), 0 0 40px var(--neon-cor), 0 0 80px var(--neon-cor);
+  /* --neon-cor: rgb(208, 255, 0);
+  color: var(--neon-cor); */
+  /* text-shadow: 0 0 0.2em var(--neon-cor), 0 0 0.2em var(--neon-cor),
+    0 0 0.2em var(--neon-cor); */
 }

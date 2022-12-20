@@ -14,8 +14,8 @@ function MainPage() {
     <div>
       <Header />
       <AboutMe />
-      <Projects />
       <Skills />
+      <Projects />
       <Footer />
     </div>
   )
