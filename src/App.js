@@ -5,6 +5,8 @@ import Projects from './components/Projects';
 import MainPage from './Pages/MainPage';
 import './App.css';
 import tmIcon from './images/tmHeader.png';
+import imgGitHub from './images/img-Github.png';
+import imgLinkedIn from './images/img-LinkedIn.png';
 
 function App() {
   return (
@@ -27,6 +29,18 @@ function App() {
             </li>
           </ul>
         </nav>
+        <a href="https://github.com/othiagomanhaes" target="blank" id="a-github">
+          <button id="btn-gitHub" type="button">
+            <img src={ imgGitHub } alt="ícone Github" />
+            Github
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/thiago-manhaes/" target="blank" id="a-linkedin">
+          <button id="btn-linkedIn" type="button">
+            <img src={ imgLinkedIn } alt="ícone LinkedIn" />
+            LinkedIn
+          </button>
+        </a>
       </section>
       <Switch>
         <Route exact path="/meu-portfolio" component={ MainPage }/>
