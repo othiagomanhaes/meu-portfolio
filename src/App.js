@@ -29,13 +29,13 @@ function App() {
             </li>
           </ul>
         </nav>
-        <a href="https://github.com/othiagomanhaes" target="blank" id="a-github">
+        <a href="https://github.com/othiagomanhaes" target="_blank" id="a-github" rel="noreferrer">
           <button id="btn-gitHub" type="button">
             <img src={ imgGitHub } alt="ícone Github" />
             Github
           </button>
         </a>
-        <a href="https://www.linkedin.com/in/thiago-manhaes/" target="blank" id="a-linkedin">
+        <a href="https://www.linkedin.com/in/thiago-manhaes/" target="_blank" id="a-linkedin" rel="noreferrer">
           <button id="btn-linkedIn" type="button">
             <img src={ imgLinkedIn } alt="ícone LinkedIn" />
             LinkedIn
