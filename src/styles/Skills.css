@@ -1,3 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
+
 #section-skills {
   background-color: rgb(51,51,51);
+  height: 100vh;
+}
+
+#title-skills {
+  font-family: 'Bungee Outline', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+#div-list {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 85%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#list-skills {
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+  justify-content: center;
+  align-content: center;
+  height: 70%;
+  padding: 0;
+  width: 60%;
+}
+
+.li-tecs {
+  background-color: rgb(145, 145, 145);
+  display: flex;
+  border-radius: 10px;
+  /* border: 1px solid blue; */
+  font-family: 'Nova Square', cursive;
+  flex-direction: column;
+  justify-items: center;
+  list-style-type: none;
+  height: 180px;
+  text-align: center;
+  width: 140px;
+  margin: 1%;
+}
+
+.img-tec {
+  margin: 9%;
+}
+
+#div-disc-tec {
+  border: 1px solid white;
+  height: 70%;
+  width: 30%;
 }
