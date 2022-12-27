@@ -35,10 +35,11 @@
 }
 
 .li-links {
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Nova Square', cursive;
+  font-variant-caps: all-petite-caps;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .li-links:hover {
@@ -63,7 +64,7 @@
   justify-items: center;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   height: 35px;
   font-weight: 800;
@@ -78,7 +79,7 @@
 #a-linkedin {
   margin-right: 5px;
   text-decoration: none;
-  width: 11%;
+  width: 10%;
 }
 
 #btn-linkedIn {
@@ -88,7 +89,7 @@
   justify-items: center;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Nova Square', cursive;
   font-size: 16px;
   height: 35px;
   font-weight: 800;
