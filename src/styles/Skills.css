@@ -12,7 +12,7 @@
 }
 
 #div-list {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   height: 85%;
   align-items: center;
@@ -23,7 +23,7 @@
   border-radius: 6px;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   justify-content: center;
   align-content: center;
   height: 70%;
@@ -44,6 +44,13 @@
   text-align: center;
   width: 15%;
   margin: 1%;
+  filter: grayscale();
+}
+
+.li-tecs:hover {
+  filter: none;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .img-tec {
