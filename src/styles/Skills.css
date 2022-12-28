@@ -44,11 +44,9 @@
   text-align: center;
   width: 15%;
   margin: 1%;
-  filter: grayscale();
 }
 
 .li-tecs:hover {
-  filter: none;
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -58,7 +56,21 @@
 }
 
 #div-disc-tec {
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Nova Square', cursive;
+  font-size: 150%;
   height: 70%;
   width: 30%;
+}
+
+.div-linha-3 {
+  background-color: white;
+  height: 1px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 }

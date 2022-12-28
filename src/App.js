@@ -19,6 +19,7 @@ function App() {
               <Link class="li-links" to="/meu-portfolio">Início</Link>
             </li>
             <li>
+              {/* <a href="#section-SobreMim" rel="about me">Sobre mim</a> */}
               <Link class="li-links" to="/meu-portfolio/abouteMe">Sobre mim</Link>
             </li>
             <li>
