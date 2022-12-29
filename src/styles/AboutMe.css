@@ -2,10 +2,12 @@
 
 #section-SobreMim {
   /* border: 1px solid red; */
-  background-color: rgb(51,51,51);
+  /* background-color: rgb(51,51,51); */
+  background-color: rgb(38, 38, 38);
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
+  padding-top: 10%;
 }
 
 #title-SobreMim {
@@ -25,15 +27,17 @@
   margin-bottom: 10px;
   text-align: center;
   width: 53%;
+  /* visibility: hidden; */
 }
 
 #minha-foto {
   border-radius: 50px;
-  height: 29%;
+  height: 30%;
   align-items: center;
-  width: 14%;
+  width: 10%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
 
 .div-linha-2{
@@ -43,4 +47,10 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+}
+
+.div-hidden-sobreMim {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
 }

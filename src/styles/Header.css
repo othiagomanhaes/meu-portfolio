@@ -13,26 +13,27 @@ font-family: 'Quicksand', sans-serif; */
 #header-port {
   /* border: 1px solid green; */
   background-color: rgb(51,51,51);
-  height: 80vh;
-  padding-top: 25px;
+  /* background-color: orange; */
+  height: 83vh;
+  padding-top: 100px;
 }
 
 #section-2-header {
   align-items: center;
   /* border: 1px solid green; */
   display: flex;
-  height: 60%;
+  height: 70%;
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 90%;
 }
 
 #div1-section-2 {
   /* border: 1px solid orange; */
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 55%;
   /* margin-left: 7%; */
 }
 
@@ -97,5 +98,5 @@ font-family: 'Quicksand', sans-serif; */
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 140px;
+  margin-top: 110px;
 }

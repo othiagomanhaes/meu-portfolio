@@ -2,7 +2,9 @@
 
 #section-skills {
   background-color: rgb(51,51,51);
-  height: 100vh;
+  /* background-color: orange; */
+  height: 80vh;
+  padding-top: 5%;
 }
 
 #title-skills {
@@ -17,6 +19,7 @@
   height: 85%;
   align-items: center;
   justify-content: space-around;
+  margin-top: 5%;
 }
 
 #list-skills {
@@ -72,5 +75,9 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
+  margin-top: 8%;
+}
+
+.div-hidden-skills {
+  visibility: hidden;
 }

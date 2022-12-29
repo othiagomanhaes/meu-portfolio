@@ -12,7 +12,8 @@ function Header() {
       direction: 'alternate',
       // rotate: '1turn',
     });
-  }, [])
+  }, []);
+
 
   return (
     <header id="header-port">
@@ -31,7 +32,7 @@ function Header() {
           />
         </div>
       </section>
-        <div className="div-linha"></div>
+        {/* <div className="div-linha"></div> */}
     </header>
   );
 }
