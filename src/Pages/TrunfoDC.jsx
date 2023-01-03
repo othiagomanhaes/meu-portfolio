@@ -24,7 +24,7 @@ function TrunfoDC() {
           </a>
         </div>
 
-        <footer id="footer-heroi">{"Criado e desenvolvido por Thiago Manhães =) test"}</footer>
+        <footer id="footer-heroi">{"Criado e desenvolvido por Thiago Manhães =)"}</footer>
       </div>
     </div>
   )
