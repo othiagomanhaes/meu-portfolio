@@ -19,7 +19,7 @@ function Projects() {
                 Trunfo Heróis DC
               </div>
               <div className="back">
-                <Link id="link-herois" to="/trunfo-herois-dc">
+                <Link id="link-herois" to="/projects/trunfo-herois-dc">
                   <img id="img-dc" src="https://i.pinimg.com/564x/93/ba/69/93ba69647799767cf4b5d884d0237732.jpg" alt="img dc" />
                 </Link>
               </div>

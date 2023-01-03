@@ -49,7 +49,7 @@ function App() {
         <Route path="/meu-portfolio/abouteMe" component={ AboutMe } />
         <Route path="/meu-portfolio/skills" component={ Skills }/>
         <Route path="/meu-portfolio/projects" component={ Projects }/>
-        <Route path="/trunfo-herois-dc" component={ TrunfoDC }/>
+        <Route path="/projects/trunfo-herois-dc" component={ TrunfoDC }/>
       </Switch>
     </div>
   );
