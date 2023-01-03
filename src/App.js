@@ -3,6 +3,7 @@ import { Route, Switch, Link } from 'react-router-dom';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import MainPage from './Pages/MainPage';
+import TrunfoDC from './Pages/TrunfoDC';
 import './App.css';
 import tmIcon from './images/tmHeader.png';
 import imgGitHub from './images/img-Github.png';
@@ -48,6 +49,7 @@ function App() {
         <Route path="/meu-portfolio/abouteMe" component={ AboutMe } />
         <Route path="/meu-portfolio/skills" component={ Skills }/>
         <Route path="/meu-portfolio/projects" component={ Projects }/>
+        <Route path="/trunfo-herois-dc" component={ TrunfoDC }/>
       </Switch>
     </div>
   );
