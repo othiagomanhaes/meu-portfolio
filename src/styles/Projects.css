@@ -1,4 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
+
 #section-projects {
   background-color: rgb(38,38,38);
   height: 80vh;
+  padding-top: 5%;
 }
+
+.div-hidden-projects {
+  /* border: 1px solid red; */
+  height: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+  width: 97%;
+}
+
+#title-projects {
+  /* border: 1px solid green; */
+  margin-bottom: 30px;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+#div-projects {
+  /* border: 1px solid orange; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.project {
+  background-color: rgb(51,51,51);
+  border-radius: 6px;
+  /* border: 1px solid blue; */
+  height: 40%;
+  width: 30%;
+  font-family: 'Nova Square', cursive;
+  font-size: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform-style: preserve-3d;
+  transition: all .9s ease;
+}
+
+.p1:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.p2:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.p3:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.p4:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.p5:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.p6:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.front {
+  border-radius: 6px;
+  position: absolute;
+  background-color: rgb(51,51,51);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backface-visibility: hidden;
+}
+
+.back {
+  border-radius: 6px;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: rgb(51,51,51);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#link-herois {
+  width: 100%;
+  height: 100%;
+}
+
+#img-dc {
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  border-radius: 6px;
+}
+/* https://i.pinimg.com/564x/f8/a2/49/f8a2493f46d529bd7cdf4d42f6ace748.jpg */
