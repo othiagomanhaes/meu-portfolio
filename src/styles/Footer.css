@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
+
 #footer-Foo {
   background-color: rgb(51,51,51);
+  height: 20vh;
+}
+
+#div-footer {
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  font-family: 'Nova Square', cursive;
+}
+
+#title-contact {
+  text-align: center;
+  font-family: 'Nova Square', cursive;
+  /* font-family: 'Bungee Outline', cursive; */
+
+}
+
+.redes-footer {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 30%;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-redes {
+  width: 100%;
+  height: 100%;
+}
+
+#msg-final {
+  text-align: center;
 }
