@@ -93,7 +93,7 @@ font-family: 'Quicksand', sans-serif; */
   margin-top: 110px;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (min-width: 250px) and (max-width: 280px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
@@ -122,7 +122,7 @@ font-family: 'Quicksand', sans-serif; */
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 300px) and (max-width: 375px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
@@ -151,7 +151,7 @@ font-family: 'Quicksand', sans-serif; */
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 376px) and (max-width: 414px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
@@ -166,21 +166,21 @@ font-family: 'Quicksand', sans-serif; */
   }
 
   #p-ola {
-    font-size: 30px !important;
+    font-size: 30px;
   }
 
   #meu-nome {
-    font-size: 400% !important;
+    font-size: 400%;
     margin: 0;
     text-align: center;
   }
 
   #title-front {
-    font-size: 35px !important;
+    font-size: 35px;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (min-width: 415px) and (max-width: 540px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
@@ -196,21 +196,21 @@ font-family: 'Quicksand', sans-serif; */
   }
 
   #p-ola {
-    font-size: 33px !important;
+    font-size: 33px;
   }
 
   #meu-nome {
-    font-size: 450% !important;
+    font-size: 450%;
     margin: 0;
     text-align: center;
   }
 
   #title-front {
-    font-size: 39px !important;
+    font-size: 39px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 541px) and (max-width: 768px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
@@ -239,7 +239,7 @@ font-family: 'Quicksand', sans-serif; */
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (min-width: 769px) and (max-width: 820px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
@@ -268,7 +268,7 @@ font-family: 'Quicksand', sans-serif; */
   }
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 821px) and (max-width: 912px) {
   #section-2-header {
     display: flex;
     flex-direction: column;
