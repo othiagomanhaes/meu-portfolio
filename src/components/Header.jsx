@@ -31,8 +31,7 @@ function Header() {
             alt="desenho de alguém no notebook"
           />
         </div>
-      </section>
-        {/* <div className="div-linha"></div> */}
+      </section>       
     </header>
   );
 }

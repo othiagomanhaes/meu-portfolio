@@ -179,21 +179,22 @@
   }
 
   #nav-header {
+    /* border: 1px solid blue; */
     margin-left: 0%;
     margin-top: 3%;
-    width: 95%;
+    width: 60%;
   }
 
   #list-links {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
+    /* border: 1px solid silver; */
   }
 
   .li-links{
-    font-size: small;
-    /* color: gold; */
+    font-size: 5px !important;
+    /* color: red; */
   }
 
   #div-botoes {
