@@ -17,32 +17,34 @@ function App() {
         <nav id="nav-header">
           <ul id="list-links">
             <li>
-              <Link class="li-links" to="/meu-portfolio">Início</Link>
+              <Link className="li-links" to="/meu-portfolio">Início</Link>
             </li>
             <li>
               {/* <a href="#section-SobreMim" rel="about me">Sobre mim</a> */}
-              <Link class="li-links" to="/meu-portfolio/abouteMe">Sobre mim</Link>
+              <Link className="li-links" to="/meu-portfolio/abouteMe">Sobre mim</Link>
             </li>
             <li>
-              <Link class="li-links" to="/meu-portfolio/skills">Habilidades</Link>
+              <Link className="li-links" to="/meu-portfolio/skills">Habilidades</Link>
             </li>
             <li>
-              <Link class="li-links" to="/meu-portfolio/projects">Projetos</Link>
+              <Link className="li-links" to="/meu-portfolio/projects">Projetos</Link>
             </li>
           </ul>
         </nav>
-        <a href="https://github.com/othiagomanhaes" target="_blank" id="a-github" rel="noreferrer">
-          <button id="btn-gitHub" type="button">
-            <img src={ imgGitHub } alt="ícone Github" />
-            Github
-          </button>
-        </a>
-        <a href="https://www.linkedin.com/in/thiago-manhaes/" target="_blank" id="a-linkedin" rel="noreferrer">
-          <button id="btn-linkedIn" type="button">
-            <img src={ imgLinkedIn } alt="ícone LinkedIn" />
-            LinkedIn
-          </button>
-        </a>
+        <div id="div-botoes">
+          <a href="https://github.com/othiagomanhaes" target="_blank" id="a-github" rel="noreferrer">
+            <button id="btn-gitHub" type="button">
+              <img src={ imgGitHub } alt="ícone Github" />
+              Github
+            </button>
+          </a>
+          <a href="https://www.linkedin.com/in/thiago-manhaes/" target="_blank" id="a-linkedin" rel="noreferrer">
+            <button id="btn-linkedIn" type="button">
+              <img src={ imgLinkedIn } alt="ícone LinkedIn" />
+              LinkedIn
+            </button>
+          </a>
+        </div>
       </section>
       <Switch>
         <Route exact path="/meu-portfolio" component={ MainPage }/>

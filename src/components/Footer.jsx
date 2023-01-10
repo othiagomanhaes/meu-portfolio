@@ -1,7 +1,7 @@
 import '../styles/Footer.css';
 import imgLinkedIn from '../images/img-LinkedIn.png';
 import imgGitHub from '../images/img-Github.png';
-import insta from '../images/instagram.png';
+// import insta from '../images/instagram.png';
 import insta2 from '../images/instagram-2.png';
 
 function Footer() {
