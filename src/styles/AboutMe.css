@@ -2,7 +2,6 @@
 
 #section-SobreMim {
   /* border: 1px solid red; */
-  /* background-color: rgb(51,51,51); */
   background-color: rgb(38, 38, 38);
   display: flex;
   flex-direction: column;
@@ -53,4 +52,21 @@
   display: flex;
   flex-direction: column;
   visibility: hidden;
+}
+
+@media screen and (min-width: 280px) and (max-width: 375px) {
+  #texto-SobreMim {
+    font-size: 12px;
+    /* border: 1px solid green; */
+    /* color: red; */
+    width: 85%;
+    height: 60%;
+  }
+
+  #minha-foto {
+    height: 20%;
+    width: 30%;
+    border-radius: 25px;
+    margin-top: 3%;
+  }
 }
