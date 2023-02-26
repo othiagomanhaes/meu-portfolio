@@ -4,6 +4,8 @@ font-family: 'Quicksand', sans-serif; */
 /* font-family: 'Saira Stencil One', cursive; */
 /* font-family: 'Londrina Shadow', cursive; */
 /* font-family: 'Bungee Outline', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+/* font-family: 'Tilt Prism', cursive; */
 
 * {
   margin: 0;
@@ -39,39 +41,9 @@ font-family: 'Quicksand', sans-serif; */
 
 #p-ola {
   /* border: 1px solid orange; */
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Bungee Outline', cursive;
   text-align: center;
-}
-
-@keyframes neon {
-  from {
-    filter: drop-shadow(0 0 0 var(--neon-cor))
-  }
-
-  to {
-    filter: drop-shadow(0 0 30px var(--neon-cor))
-  }
-}
-
-#meu-nome {
-  animation: neon .8s ease-in-out infinite;
-  animation-delay: 3s;
-  font-family: 'Bungee Outline', cursive;
-  font-weight: 600;
-  font-size: 500%;
-  margin-left: auto;
-  margin-right: auto;
-  --neon-cor: rgb(208, 255, 0);
-  color: var(--neon-cor);
-  -webkit-text-stroke: 1px black;
-  text-align: center;
-}
-
-#title-front {
-  font-family: 'Bungee Outline', cursive;
-  text-align: center;
-  font-size: 30px;
 }
 
 #div2-section-2 {
@@ -110,16 +82,6 @@ font-family: 'Quicksand', sans-serif; */
   #p-ola {
     font-size: 20px !important;
   }
-
-  #meu-nome {
-    font-size: 280% !important;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 22px !important;
-  }
 }
 
 @media screen and (min-width: 281px) and (max-width: 375px) {
@@ -139,16 +101,6 @@ font-family: 'Quicksand', sans-serif; */
   #p-ola {
     font-size: 25px !important;
   }
-
-  #meu-nome {
-    font-size: 350% !important;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 29px !important;
-  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 414px) {
@@ -167,16 +119,6 @@ font-family: 'Quicksand', sans-serif; */
 
   #p-ola {
     font-size: 30px;
-  }
-
-  #meu-nome {
-    font-size: 400%;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 35px;
   }
 }
 
@@ -198,16 +140,6 @@ font-family: 'Quicksand', sans-serif; */
   #p-ola {
     font-size: 33px;
   }
-
-  #meu-nome {
-    font-size: 450%;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 39px;
-  }
 }
 
 @media screen and (min-width: 541px) and (max-width: 768px) {
@@ -226,16 +158,6 @@ font-family: 'Quicksand', sans-serif; */
 
   #p-ola {
     font-size: 35px;
-  }
-
-  #meu-nome {
-    font-size: 500%;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 40px;
   }
 }
 
@@ -256,16 +178,6 @@ font-family: 'Quicksand', sans-serif; */
   #p-ola {
     font-size: 40px;
   }
-
-  #meu-nome {
-    font-size: 500%;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 45px;
-  }
 }
 
 @media screen and (min-width: 821px) and (max-width: 912px) {
@@ -284,15 +196,5 @@ font-family: 'Quicksand', sans-serif; */
 
   #p-ola {
     font-size: 45px;
-  }
-
-  #meu-nome {
-    font-size: 650%;
-    margin: 0;
-    text-align: center;
-  }
-
-  #title-front {
-    font-size: 49px;
   }
 }
