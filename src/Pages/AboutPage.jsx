@@ -1,11 +1,13 @@
 import AboutMe from "../components/AboutMe"
 import Footer from "../components/Footer"
+import Header from "../components/Header";
 
 function AboutPage () {
   return (
     <>
-      <AboutMe />
-      <Footer />
+    <Header />
+    <AboutMe />
+    <Footer />
     </>
   )
 }

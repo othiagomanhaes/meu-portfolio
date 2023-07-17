@@ -1,66 +1,46 @@
-// import Typical from 'react-typical';
-import { useEffect } from "react";
-import TypeIt from "typeit";
-import '../styles/Header.css';
-import pessoaProgra from '../images/pessoaProgra.png';
+import { Link } from 'react-router-dom';
+import tmIcon from '../images/tmHeader.png'
+import imgGitHub from '../images/img-Github.png'
+import imgLinkedIn from '../images/img-LinkedIn.png'
+import '../styles/Header.css'
 
 function Header() {
-  useEffect(() => {
-    new TypeIt("#p-ola", {
-      speed: 80,
-      waitUntilVisible: true,
-    })
-      .type("Hllo", { delay: 300 })
-      .move(-3)
-      // .delete(1)
-      .type("e")
-      .move(null, { to: "END" })
-      .type(", world! ")
-      .break({ delay: 500 })
-      .type("I'm ")
-      .type("<span><b>Thiago</b></span>")
-      .pause(300)
-      .break({ delay: 500 })
-      .type("Geek")
-      .pause(500)
-      .delete(4)
-      .pause(500)
-      .type("Gamer")
-      .pause(500)
-      .delete(5)
-      .pause(500)
-      .type("<b>Front-End Developer</b> ")
-      // .move(-4)
-      // .type("o")
-      // .move(null, { to: "END" })
-      // .type("h of today.")
-      // .pause(500)
-      // .break({ delay: 500 })
-      // .break({ delay: 500 })
-      // .type("<em>- Will Rogers</em>")
-      .go();
-  }, [])
-  
   return (
-    <header id="header-port">
-      <section id="section-2-header">
-        <div id="div1-section-2">
-          <p id="p-ola" />
-        </div>
-
-        <div id="div2-section-2">
-          <img
-            id ="img-laptop"
-            src={ pessoaProgra }
-            alt="desenho de alguém no notebook"
-          />
-        </div>
-      </section>       
-    </header>
-  );
+    <section id="section-1-header">
+      <img id="iconeTM" src={ tmIcon } alt="iconeTM" />
+      <nav id="nav-header">
+        <ul id="list-links">
+          <li>
+            <Link className="li-links" to="/meu-portfolio">Início</Link>
+          </li>
+          <li>
+            {/* <a href="#section-SobreMim" rel="about me">Sobre mim</a> */}
+            <Link className="li-links" to="/meu-portfolio/abouteMe">Sobre mim</Link>
+          </li>
+          <li>
+            <Link className="li-links" to="/meu-portfolio/skills">Habilidades</Link>
+          </li>
+          <li>
+            <Link className="li-links" to="/meu-portfolio/projects">Projetos</Link>
+          </li>
+        </ul>
+      </nav>
+      <div id="div-botoes">
+        <a href="https://github.com/othiagomanhaes" target="_blank" id="a-github" rel="noreferrer">
+          <button id="btn-gitHub" type="button">
+            <img src={ imgGitHub } alt="ícone Github" />
+            Github
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/thiago-manhaes/" target="_blank" id="a-linkedin" rel="noreferrer">
+          <button id="btn-linkedIn" type="button">
+            <img src={ imgLinkedIn } alt="ícone LinkedIn" />
+            LinkedIn
+          </button>
+        </a>
+      </div>
+    </section>
+  )
 }
 
 export default Header;
-
-
-// vasco
