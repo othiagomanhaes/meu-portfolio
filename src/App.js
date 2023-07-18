@@ -9,7 +9,6 @@ import './App.css';
 function App() {
   return (
     <div>
-      
       <Switch>
         <Route exact path="/meu-portfolio" component={ MainPage }/>
         <Route path="/meu-portfolio/abouteMe" component={ AboutPage } />
