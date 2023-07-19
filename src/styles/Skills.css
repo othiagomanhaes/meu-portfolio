@@ -14,7 +14,7 @@
 
 #div-list {
   display: flex;
-  height: 85%;
+  height: 80%;
   align-items: center;
   justify-content: space-around;
   margin-top: 5%;
@@ -26,7 +26,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  height: 70%;
+  height: 90%;
   padding: 0;
   width: 60%;
 }
@@ -37,7 +37,7 @@
   border-radius: 10px;
   font-family: 'Nova Square', cursive;
   flex-direction: column;
-  justify-items: center;
+  align-items: center;
   list-style-type: none;
   height: 38%;
   text-align: center;
@@ -54,6 +54,7 @@
 
 .img-tec {
   margin: 9%;
+  width: 80%;
 }
 
 #div-disc-tec {
@@ -66,15 +67,55 @@
   width: 30%;
 }
 
-.div-linha-3 {
-  background-color: white;
-  height: 1px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8%;
-}
-
 .div-hidden-skills {
   visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  #div-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #list-skills {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .li-tecs {
+    /* width: 90%; Reduzindo a largura dos itens */
+    margin: 5px 5px;
+    text-align: center;
+  }
+
+  .img-tec {
+    width: 50%; /* Reduzindo o tamanho das imagens */
+  }
+
+  #div-disc-tec {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para telas menores, como dispositivos móveis de tamanho reduzido */
+  #title-skills {
+    font-size: 20px; /* Reduzindo o tamanho do título */
+  }
+
+  .li-tecs {
+    width: 25%;
+    margin: 5px 5px;
+    font-size: 12px; /* Reduzindo o tamanho do texto */
+  }
+
+  .img-tec {
+    width: 30%; /* Reduzindo ainda mais o tamanho das imagens */
+  }
+
+  #div-disc-tec {
+    font-size: 100%; /* Reduzindo o tamanho do texto de descrição */
+  }
 }

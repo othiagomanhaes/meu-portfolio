@@ -20,7 +20,7 @@ function Footer() {
           <a href="https://www.instagram.com/othiagomanhaes/" target="_blank" rel="noreferrer">
             <img className="img-redes" src={ insta2 } alt="ícone Instagram" />
           </a>
-          <p>othiagomanhaes@gmail.com</p>
+          <p id="email-id">othiagomanhaes@gmail.com</p>
         </div>
         <p id="msg-final">{"Criado e Desenvolvido com carinho e código por Thiago Manhães =)"}</p>
       </div>

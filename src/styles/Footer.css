@@ -6,7 +6,6 @@
 }
 
 #div-footer {
-  /* border: 1px solid red; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -18,13 +17,11 @@
 #title-contact {
   text-align: center;
   font-family: 'Nova Square', cursive;
-  /* font-family: 'Bungee Outline', cursive; */
 
 }
 
 .redes-footer {
   display: flex;
-  /* border: 1px solid green; */
   width: 30%;
   height: 50px;
   margin: 0 auto;
@@ -35,8 +32,33 @@
 .img-redes {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
 }
 
 #msg-final {
   text-align: center;
+}
+
+@media (max-width: 1050px) {
+  .redes-footer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .redes-footer {
+    width: 60%;
+  }
+
+  #title-contact {
+    font-size: 15px;
+  }
+
+  #email-id {
+    font-size: 10px;
+  }
+
+  #msg-final {
+    font-size: 12px;
+  }
 }

@@ -111,7 +111,6 @@ function Skills() {
             </ul>
             <div id="div-disc-tec">{descriTec}</div>
           </div>
-          {/* <div className="div-linha-3"></div> */}
         </div>
       </section>
     </div>

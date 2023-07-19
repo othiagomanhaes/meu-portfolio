@@ -24,7 +24,6 @@
 }
 
 #div-projects {
-  /* border: 1px solid orange; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -38,7 +37,6 @@
 .project {
   background-color: rgb(51,51,51);
   border-radius: 6px;
-  /* border: 1px solid blue; */
   height: 40%;
   width: 30%;
   font-family: 'Nova Square', cursive;
@@ -119,3 +117,21 @@
   border-radius: 6px;
 }
 /* https://i.pinimg.com/564x/f8/a2/49/f8a2493f46d529bd7cdf4d42f6ace748.jpg */
+
+@media screen and (max-width: 768px) {
+  .project {
+    width: 30%;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #title-projects {
+    font-size: 28px;
+  }
+
+  .project {
+    width: 30%;
+    font-size: 65%;
+  }
+}
