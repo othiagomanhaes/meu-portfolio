@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
 
+
+/* Estilos base para telas maiores */
 #div-trunfo-page {
-  background-color: rgb(38,38,38);
-  height: 190vh;
-  padding-top: 5%;
-  margin: 0;
+  background-color: rgb(38, 38, 38);
+  padding: 5% 5%;
 }
 
 #title-trunfo {
@@ -13,27 +13,7 @@
   font-size: 240%;
 }
 
-#texto-trunfo-1 {
-  font-family: 'Nova Square', cursive;
-  text-align: justify;
-  padding-top: 5%;
-  font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-#texto-trunfo-2 {
-  font-family: 'Nova Square', cursive;
-  text-align: justify;
-  padding-top: 5%;
-  font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-#texto-trunfo-3 {
+.texto-trunfo {
   font-family: 'Nova Square', cursive;
   text-align: justify;
   padding-top: 5%;
@@ -47,30 +27,28 @@
   font-family: 'Nova Square', cursive;
   text-align: center;
   margin-top: 5%;
+  margin-bottom: 1%;
 }
 
 #div-to-heroi {
-  /* border: 1px solid red; */
-  width: 60%;
-  height: 40%;
-  margin: 1% auto;
+  width: 100%;
+  max-width: 700px; /* Defina o valor máximo que deseja para a imagem */
+  height: auto; /* Ajusta a altura automaticamente */
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
 #link-to-heroi {
-  /* border: 1px solid orange; */
   width: 100%;
   height: 100%;
 }
 
 #img-herois {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
   width: 100%;
+  height: 100%;
   border-radius: 6px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #img-herois:hover {
@@ -78,14 +56,28 @@
   transform: scale(1.01);
 }
 
-#footer-heroi {
-  background-color: rgb(51,51,51);
-  margin-top: 3%;
-  height: 8%;
-  font-family: 'Nova Square', cursive;
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Quando a largura da tela for menor ou igual a 768px */
+@media (max-width: 768px) {
+  #title-trunfo {
+    font-size: 200%;
+  }
+
+  .texto-trunfo {
+    width: 100%;
+  }
+}
+
+/* Quando a largura da tela for menor ou igual a 480px */
+@media (max-width: 480px) {
+  #div-trunfo-page {
+    padding: 2% 2%;
+  }
+
+  #title-trunfo {
+    font-size: 180%;
+  }
+
+  .texto-trunfo {
+    font-size: 18px;
+  }
 }
