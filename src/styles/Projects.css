@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
 
+#div-pro {
+  display: flex;
+}
+
 #section-projects {
   background-color: rgb(38,38,38);
-  height: 80vh;
+  height: 100%;
   padding-top: 5%;
+  display: flex;
 }
 
 .div-hidden-projects {
@@ -32,106 +37,109 @@
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  /* border: 1px solid blue; */
 }
 
 .project {
   background-color: rgb(51,51,51);
   border-radius: 6px;
-  height: 40%;
-  width: 30%;
+  height: 450px;
+  width: 25%;
   font-family: 'Nova Square', cursive;
   font-size: 150%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-  transform-style: preserve-3d;
-  transition: all .9s ease;
+  margin: 5% 2%;
 }
 
-.p1:hover {
-  transform: rotateY(180deg);
-  cursor: pointer;
+.project-text {
+  /* border: 1px solid blue; */
+  width: 95%;
+  height: 40%;
+  margin: 2%;
 }
 
-.p2:hover {
-  transform: rotateY(180deg);
-  cursor: pointer;
+.project:hover {
+  background-color: rgb(70, 70, 70);
 }
 
-.p3:hover {
-  transform: rotateY(180deg);
-  cursor: pointer;
-}
-
-.p4:hover {
-  transform: rotateY(180deg);
-  cursor: pointer;
-}
-
-.p5:hover {
-  transform: rotateY(180deg);
-  cursor: pointer;
-}
-
-.p6:hover {
-  transform: rotateY(180deg);
-  cursor: pointer;
-}
-
-.front {
-  border-radius: 6px;
-  position: absolute;
-  background-color: rgb(51,51,51);
-  height: 100%;
+.project-text p {
+  font-size: 20px;
+  margin-top: 5%;
   width: 100%;
+  /* border: 1px solid yellow; */
+  word-wrap: break-word;
+}
+
+.descreve-project {
+  /* border: 1px solid green; */
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-  backface-visibility: hidden;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.back {
-  border-radius: 6px;
-  position: absolute;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  background-color: rgb(51,51,51);
-  height: 100%;
-  width: 100%;
+.descreve-project h3 {
+  font-size: 25px;
+}
+
+.imgs-icones {
+  /* border: 1px solid yellow; */
+  width: 25%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-#link-herois {
+.imgs-icones a {
   width: 100%;
-  height: 100%;
+  height: 85%;
+  cursor: pointer;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-around;
 }
 
-#img-dc {
-  width: 100%;
-  height: 100%;
-  opacity: .5;
+.imgs-icones a img {
+  width: 55%;
+  height: 85%;
+  /* border: 1px solid red; */
+}
+
+.imgs-icones a img:hover {
+  width: 65%;
+  height: 95%;
+}
+
+.imgsProject {
+  width: 95%;
+  height: 45%;
   border-radius: 6px;
+  margin: 2%;
 }
-/* https://i.pinimg.com/564x/f8/a2/49/f8a2493f46d529bd7cdf4d42f6ace748.jpg */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1000px) {
   .project {
-    width: 30%;
-    margin: 10px auto;
+    width: 40%;
   }
 }
 
-@media screen and (max-width: 480px) {
-  #title-projects {
-    font-size: 28px;
+@media (max-width: 680px) {
+  .project {
+    width: 55%;
+  }
+}
+
+@media (max-width: 465px) {
+  .project {
+    width: 85%;
+    height: 340px;
   }
 
-  .project {
-    width: 30%;
-    font-size: 65%;
+  .project-text p {
+    font-size: 14px;
+  }
+
+  .descreve-project h3 {
+    font-size: 22px;
   }
 }

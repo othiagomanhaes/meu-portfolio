@@ -23,7 +23,7 @@ function TrunfoDC() {
 
           <h4 id="texto-clique">Clique na imagem a baixo e veja ao vivo!</h4>
           <div id="div-to-heroi">
-            <a id="link-to-heroi" href="https://othiagomanhaes.github.io/trunfo-herois-dc/" target="_blank" rel="noreferrer">
+            <a id="link-to-heroi" href="https://othiagomanhaes.github.io/trybetunes/" target="_blank" rel="noreferrer">
               <img id="img-herois" src="https://i.pinimg.com/564x/93/ba/69/93ba69647799767cf4b5d884d0237732.jpg" alt="herois dc" />
             </a>
           </div>

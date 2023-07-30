@@ -5,7 +5,7 @@ import Header from "../components/Header";
 function ProjectsPage () {
   return (
 		<>
-      <Header />
+      	  <Header />
 		  <Projects />
 		  <Footer />
 		</>
