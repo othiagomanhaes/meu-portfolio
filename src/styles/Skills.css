@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
 
+.div-skills {
+  display: flex;
+}
+
 #section-skills {
   background-color: rgb(51,51,51);
-  height: 80vh;
+  height: 100%;
   padding-top: 5%;
 }
 
@@ -69,6 +73,7 @@
 
 .div-hidden-skills {
   visibility: hidden;
+  margin-bottom: 3%;
 }
 
 @media (max-width: 768px) {
