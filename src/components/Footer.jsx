@@ -1,8 +1,7 @@
 import '../styles/Footer.css';
-import imgLinkedIn from '../images/img-LinkedIn.png';
-import imgGitHub from '../images/img-Github.png';
-// import insta from '../images/instagram.png';
-import insta2 from '../images/instagram-2.png';
+import imgLinkedInWhite from '../images/linkedinWhite.png';
+import imgGitHubWhite from '../images/githubWhite.png';
+import imgInstaWhite from '../images/instagramWhite.png';
 
 function Footer() {
   return (
@@ -12,13 +11,13 @@ function Footer() {
 
         <div className="redes-footer">
           <a href="https://www.linkedin.com/in/thiago-manhaes/" target="_blank" rel="noreferrer">
-            <img className="img-redes" src={ imgLinkedIn } alt="ícone LinkedIn" />
+            <img className="img-redes" src={ imgLinkedInWhite } alt="ícone LinkedIn" />
           </a>
           <a href="https://github.com/othiagomanhaes" target="_blank" rel="noreferrer">
-            <img className="img-redes" src={ imgGitHub } alt="ícone Github" />
+            <img className="img-redes" src={ imgGitHubWhite } alt="ícone Github" />
           </a>
           <a href="https://www.instagram.com/othiagomanhaes/" target="_blank" rel="noreferrer">
-            <img className="img-redes" src={ insta2 } alt="ícone Instagram" />
+            <img className="img-redes" src={ imgInstaWhite } alt="ícone Instagram" />
           </a>
           <p id="email-id">othiagomanhaes@gmail.com</p>
         </div>

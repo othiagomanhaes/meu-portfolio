@@ -1,27 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
 
-#section-1-header {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header-header {
   background-color: rgb(51,51,51);
   display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#header-header-black {
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#div-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* border: 1px solid blue; */
   align-items: center;
-  padding: 15px;
 }
 
 #iconeTM {
-  width: 6%;
-  margin-left: 5%;
-}
-
-#h1-tom {
-  margin-left: 5%;
-  font-size: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 #nav-header {
   align-items: center;
   display: flex;
-  margin-left: 10%;
-  width: 50%;
+  margin: 0;
+  width: 40%;
+  /* border: 1px solid yellow; */
+  justify-content: center;
 }
 
 #list-links {
@@ -29,10 +46,19 @@
   justify-content: space-around;
   list-style-type: none;
   padding: 0;
-  width: 100%;
+  width: 95%;
+  /* border: 1px solid green; */
 }
 
 .li-links {
+  font-family: 'Nova Square', cursive;
+  font-variant-caps: all-petite-caps;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 25px;
+}
+
+.li-links-black {
   font-family: 'Nova Square', cursive;
   font-variant-caps: all-petite-caps;
   text-decoration: none;
@@ -46,64 +72,56 @@
 
 #div-botoes {
   display: flex;
-  width: 25%;
+  width: 13%;
   justify-content: space-around;
-}
-
-#a-github {
-  margin-right: 5px;
-  margin-left: 5%;
-  text-decoration: none;
-  width: 36%;
-}
-
-#btn-gitHub {
-  background-color: rgb(51,51,51);
-  border: none;
-  display: flex;
-  justify-items: center;
   align-items: center;
-  justify-content: space-around;
-  font-family: 'Nova Square', cursive;
-  font-size: 16px;
-  height: 35px;
-  font-weight: 800;
-  width: 100%;
+  /* border: 1px solid red; */
 }
 
-#btn-gitHub:hover {
-  border-style: double;
-  border-radius: 6px;
-}
-
-#a-linkedin {
-  margin-right: 5px;
-  text-decoration: none;
-  width: 40%;
-}
-
-
-#btn-linkedIn {
-  background-color: rgb(51,51,51);
+#btn-theme {
+  /* border: 1px solid blue; */
   border: none;
+  width: 28px;
+  height: 28px;
   display: flex;
-  justify-items: center;
-  align-items: center;
-  justify-content: space-around;
-  font-family: 'Nova Square', cursive;
-  font-size: 16px;
-  height: 35px;
-  font-weight: 800;
-  width: 100%;
+  background-color: rgba(0, 255, 255, 0);
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
 }
 
-#btn-linkedIn:hover {
-  border-style: double;
-  border-radius: 6px;
+#btn-theme img {
+  height: 28px;
+  width: 28px;
 }
 
-@media (max-width: 768px) {
-  #section-1-header {
+#a-github, #a-linkedin {
+  margin: auto;
+  text-decoration: none;
+  width: 27px;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  height: 27px;
+}
+
+#a-github:hover, #a-linkedin:hover, #btn-theme:hover {
+  scale: 1.2;
+}
+
+#a-github img, #a-linkedin img {
+  height: 27px;
+  width: 27px;
+}
+
+@media (max-width: 1150px) {
+  #nav-header {
+    width: 60%;
+  }
+}
+
+@media (max-width: 880px) {
+  #div-header {
     flex-direction: column;
     align-items: center;
   }
@@ -127,23 +145,14 @@
   }
 
   #div-botoes {
-    width: 100%;
-  }
-
-  #a-github,
-  #a-linkedin {
-    width: 45%;
+    width: 30%;
   }
 }
 
 /* Media query para telas ainda menores, como dispositivos móveis */
 @media (max-width: 480px) {
-  #section-1-header {
+  #div-header {
     padding: 10px;
-  }
-
-  #h1-tom {
-    font-size: 30px;
   }
 
   #nav-header {
@@ -162,18 +171,12 @@
   }
 
   #div-botoes {
-    width: 100%;
+    width: 65%;
     flex-direction: column;
     align-items: center;
   }
 
-  #a-github,
-  #a-linkedin {
-    width: 45%;
-  }
-
-  #btn-gitHub,
-  #btn-linkedIn {
-    font-size: 12px;
+  #a-github, #a-linkedin, #btn-theme{
+    margin: 2%;
   }
 }
