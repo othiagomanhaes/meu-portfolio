@@ -1,5 +1,6 @@
+import { useContext } from 'react';
+import ThemeContext from '../Context/themeContext';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import tmIcon from '../images/tmHeader.png'
 import imgGitHubWhite from '../images/githubWhite.png'
 import imgGitHubBlack from '../images/githubBlack.png'
@@ -10,13 +11,7 @@ import moonBlack from '../images/moonBlack.png'
 import '../styles/Header.css'
 
 function Header() {
-
-  const [isDark, setIsDark] = useState(true);
-
-  const changeTheme = () => {
-    isDark ? setIsDark(false) : setIsDark(true);
-  }
-
+  const { isDark, changeTheme } = useContext(ThemeContext);
   return (
     <header id={isDark ? "header-header" : "header-header-black"}>
       <div id="div-header">
