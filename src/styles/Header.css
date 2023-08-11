@@ -114,6 +114,7 @@
 #a-github img, #a-linkedin img {
   height: 27px;
   width: 27px;
+  /* border: 1px solid green; */
 }
 
 @media (max-width: 1150px) {

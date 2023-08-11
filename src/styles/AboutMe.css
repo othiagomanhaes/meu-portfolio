@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
 
-#section-SobreMim {
+
+#div-about {
+  background-color: rgb(195, 195, 195);
+  transition: background 0.3s linear;
+}
+
+#div-about-black {
   background-color: rgb(38, 38, 38);
+  transition: background 0.3s linear;
+}
+
+#section-SobreMim {
   display: flex;
   flex-direction: column;
   height: 80vh;
   padding-top: 10%;
+  transition: background 0.3s linear;
 }
 
 #title-SobreMim {
@@ -13,6 +24,17 @@
   font-family: 'Bungee Outline', cursive;
   font-size: 40px;
   text-align: center;
+  color: rgb(38, 38, 38);
+  transition: color 0.3s linear;
+}
+
+#title-SobreMim-black {
+  margin-bottom: 30px;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  transition: color 0.3s linear;
 }
 
 #texto-SobreMim {
@@ -24,6 +46,21 @@
   margin-bottom: 10px;
   text-align: center;
   width: 53%;
+  color: rgb(38, 38, 38);
+  transition: color 0.3s linear;
+}
+
+#texto-SobreMim-black {
+  font-size: 1.3em;
+  font-family: 'Nova Square', cursive;
+  height: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 53%;
+  color: white;
+  transition: color 0.3s linear;
 }
 
 #minha-foto {
@@ -39,7 +76,7 @@
 .div-hidden-sobreMim {
   display: flex;
   flex-direction: column;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 @media (max-width: 280px) {

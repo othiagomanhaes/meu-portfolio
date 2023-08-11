@@ -4,11 +4,7 @@ import ThemeContext from "./themeContext";
 function ThemeProvider ({children }) {
   const [isDark, setIsDark] = useState(true);
 
-  const changeTheme = () => {
-    isDark ? setIsDark(false) : setIsDark(true);
-  }
-
-  const tools = { isDark, changeTheme };
+  const tools = { isDark, setIsDark };
 
   return (
     <ThemeContext.Provider value={ tools }>

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import ThemeContext from '../Context/themeContext';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import tmIcon from '../images/tmHeader.png'
 import imgGitHubWhite from '../images/githubWhite.png'
 import imgGitHubBlack from '../images/githubBlack.png'
@@ -11,7 +11,7 @@ import moonBlack from '../images/moonBlack.png'
 import '../styles/Header.css'
 
 function Header() {
-  const { isDark, changeTheme } = useContext(ThemeContext);
+  const { isDark, setIsDark } = useContext(ThemeContext);
   return (
     <header id={isDark ? "header-header" : "header-header-black"}>
       <div id="div-header">
@@ -33,7 +33,7 @@ function Header() {
           </ul>
         </nav>
         <div id="div-botoes">
-          <button id="btn-theme" onClick={ changeTheme }>
+          <button id="btn-theme" onClick={ () => setIsDark(!isDark) }>
             <img src={ isDark? sunWhite : moonBlack } alt="sun white" />
           </button>
           <a href="https://github.com/othiagomanhaes" target="_blank" id="a-github" rel="noreferrer">

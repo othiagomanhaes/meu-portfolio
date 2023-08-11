@@ -1,8 +1,10 @@
 // import Typical from 'react-typical';
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import TypeIt from "typeit";
 import '../styles/Hero.css';
-import pessoaProgra from '../images/pessoaProgra.png';
+import pessoaPrograWhite from '../images/pessoaProgramaWhite.png';
+import pessoaPrograBlack from '../images/pessoaProgramaBlack.png';
+import ThemeContext from "../Context/themeContext";
 
 function Hero() {
   useEffect(() => {
@@ -29,21 +31,22 @@ function Hero() {
       .pause(500)
       .delete(5)
       .pause(500)
-      .type("<b>Front-End Developer</b> ")
+      .type("<b>Front-End Developer</b>")
       .go();
   }, [])
   
+  const { isDark } = useContext(ThemeContext);
   return (
-    <div id="header-port">
+    <div id={ isDark ? "header-port" : "header-port-black"}>
       <section id="section-2-header">
         <div id="div1-section-2">
-          <p id="p-ola" />
+          <p id={ isDark ? "p-ola" : "p-ola-black"} />
         </div>
 
         <div id="div2-section-2">
           <img
             id ="img-laptop"
-            src={ pessoaProgra }
+            src={ isDark ? pessoaPrograWhite : pessoaPrograBlack }
             alt="desenho de alguém no notebook"
           />
         </div>

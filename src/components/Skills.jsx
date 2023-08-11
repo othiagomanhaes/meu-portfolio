@@ -1,7 +1,8 @@
 import '../styles/Skills.css';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import ScrollReveal from 'scrollreveal';
 import skillsArray from '../services/skills';
+import ThemeContext from '../Context/themeContext';
 
 function Skills() {
   const textDefaultTec = 'Passe o mouse por cima da habilidade ao lado para saber mais.'
@@ -13,24 +14,26 @@ function Skills() {
     setDescriTec(skills.texto);
   }
 
-  useEffect(() => {
-    ScrollReveal().reveal('.div-hidden-skills', { delay: 300, reset: true });
-  })
+  // useEffect(() => {
+  //   ScrollReveal().reveal('.div-hidden-skills', { delay: 300, reset: true });
+  // })
 
   const defaulTextTec = () => {
     setDescriTec(textDefaultTec);
   }
 
+  const { isDark } = useContext(ThemeContext);
+
   return (
     <div className="div-skills">
-      <section id="section-skills">
+      <section id={ isDark ? "section-skills-black" : "section-skills"}>
         <div className="div-hidden-skills">
-          <h3 id="title-skills">Minhas Habilidades</h3>
+          <h3 id={ isDark ? "title-skills-black" : "title-skills"}>Minhas Habilidades</h3>
           <div id="div-list">
             <ul id="list-skills">
               {skillsArray.map(({ nome, imagem }, ind) => (
                 <li
-                  className="li-tecs"
+                  className={ isDark ? "li-tecs-black" : "li-tecs"}
                   onMouseOver={ () => { showDescriSkill(nome); } }
                   onMouseOut={ () => { defaulTextTec(); } }
                   key={ ind }
@@ -40,7 +43,7 @@ function Skills() {
                 </li>
               ))}
             </ul>
-            <div id="div-disc-tec">{descriTec}</div>
+            <div id={ isDark ? "div-disc-tec-black" : "div-disc-tec"}>{descriTec}</div>
           </div>
         </div>
       </section>
