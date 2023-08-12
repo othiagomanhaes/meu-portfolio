@@ -7,8 +7,10 @@ import pessoaPrograBlack from '../images/pessoaProgramaBlack.png';
 import ThemeContext from "../Context/themeContext";
 
 function Hero() {
+  const { isDark } = useContext(ThemeContext);
+
   useEffect(() => {
-    new TypeIt("#p-ola", {
+    new TypeIt(`#p-ola${isDark ? '-black' : ''}`, {
       speed: 80,
       waitUntilVisible: true,
     })
@@ -35,12 +37,11 @@ function Hero() {
       .go();
   }, [])
   
-  const { isDark } = useContext(ThemeContext);
   return (
     <div id={ isDark ? "header-port" : "header-port-black"}>
       <section id="section-2-header">
         <div id="div1-section-2">
-          <p id={ isDark ? "p-ola" : "p-ola-black"} />
+          <p id={ isDark ? "p-ola-black" : "p-ola"} />
         </div>
 
         <div id="div2-section-2">

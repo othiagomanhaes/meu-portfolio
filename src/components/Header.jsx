@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import ThemeContext from '../Context/themeContext';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import tmIcon from '../images/tmHeader.png'
 import imgGitHubWhite from '../images/githubWhite.png'
 import imgGitHubBlack from '../images/githubBlack.png'

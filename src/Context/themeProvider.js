@@ -1,8 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ThemeContext from "./themeContext";
 
 function ThemeProvider ({children }) {
-  const [isDark, setIsDark] = useState(true);
+
+  const getTheme = () => {
+    return JSON.parse(localStorage.getItem('theme'));
+  }
+
+  const [isDark, setIsDark] = useState(getTheme() || false);
+
+
+  useEffect(() => {
+    isDark ? localStorage.setItem("theme", JSON.stringify(isDark)) : localStorage.setItem("theme", JSON.stringify(isDark));
+  },[isDark])
 
   const tools = { isDark, setIsDark };
 

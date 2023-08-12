@@ -98,10 +98,14 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 375px) {
-  #texto-SobreMim {
+  #texto-SobreMim, #texto-SobreMim-black {
     font-size: 0.9em;
     width: 85%;
     height: 75%;
+  }
+
+  #texto-SobreMim-black {
+    color: white;
   }
 
   #minha-foto {
@@ -112,10 +116,14 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 414px) {
-  #texto-SobreMim {
+  #texto-SobreMim, #texto-SobreMim-black {
     font-size: 0.9em;
     width: 90%;
     height: 70%;
+  }
+
+  #texto-SobreMim-black {
+    color: white
   }
 
   #minha-foto {
