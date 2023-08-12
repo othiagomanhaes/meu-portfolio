@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu-portfolio/static/css/main.ef301d86.css",
-    "main.js": "/meu-portfolio/static/js/main.e03f6ad7.js",
+    "main.css": "/meu-portfolio/static/css/main.f0052eb0.css",
+    "main.js": "/meu-portfolio/static/js/main.6636ba77.js",
     "static/js/787.e31b216d.chunk.js": "/meu-portfolio/static/js/787.e31b216d.chunk.js",
     "static/media/trunfo-herois.gif": "/meu-portfolio/static/media/trunfo-herois.5a6ea69e209cf1ac27eb.gif",
     "static/media/trybetunes-video.gif": "/meu-portfolio/static/media/trybetunes-video.09495278430c88769d36.gif",
@@ -10,12 +10,12 @@
     "static/media/euImg.jpg": "/meu-portfolio/static/media/euImg.7dcddec42bb29ddb978f.jpg",
     "static/media/linkedinBlack.png": "/meu-portfolio/static/media/linkedinBlack.032cf8a63be2f0f4d425.png",
     "index.html": "/meu-portfolio/index.html",
-    "main.ef301d86.css.map": "/meu-portfolio/static/css/main.ef301d86.css.map",
-    "main.e03f6ad7.js.map": "/meu-portfolio/static/js/main.e03f6ad7.js.map",
+    "main.f0052eb0.css.map": "/meu-portfolio/static/css/main.f0052eb0.css.map",
+    "main.6636ba77.js.map": "/meu-portfolio/static/js/main.6636ba77.js.map",
     "787.e31b216d.chunk.js.map": "/meu-portfolio/static/js/787.e31b216d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef301d86.css",
-    "static/js/main.e03f6ad7.js"
+    "static/css/main.f0052eb0.css",
+    "static/js/main.6636ba77.js"
   ]
 }
