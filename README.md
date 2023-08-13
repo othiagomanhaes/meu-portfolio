@@ -18,13 +18,13 @@ Bem-vindo ao Meu Portfólio! Este é um projeto desenvolvido em React que aprese
 
 ## Capturas de Tela
 
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
+![Screenshot 1](src/images/screenshot1.png)
+![Screenshot 2](src/images/screenshot2.png)
 
 ## Instalação
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/meu-projeto-incrivel.git`
-2. Acesse o diretório do projeto: `cd meu-projeto-incrivel`
+1. Clone este repositório: `git clone https://github.com/othiagomanhaes/meu-portfolio.git`
+2. Acesse o diretório do projeto: `cd meu-portfolio`
 3. Instale as dependências: `npm install`
 
 ## Uso
