@@ -4,28 +4,42 @@
   display: flex;
 }
 
-#section-projects {
-  background-color: rgb(38,38,38);
+#section-projects, #section-projects-black {
+  background-color: rgb(195, 195, 195);
   height: 100%;
   padding-top: 5%;
   display: flex;
+  transition: background 0.3s linear;
 }
+
+#section-projects-black {
+  background-color: rgb(38,38,38);
+  transition: background 0.3s linear;
+}
+
 
 .div-hidden-projects {
   /* border: 1px solid red; */
   height: 97%;
   margin-left: auto;
   margin-right: auto;
-  visibility: hidden;
+  /* visibility: hidden; */
   width: 97%;
 }
 
-#title-projects {
+#title-projects, #title-projects-black  {
   /* border: 1px solid green; */
   margin-bottom: 30px;
   font-family: 'Bungee Outline', cursive;
   font-size: 40px;
   text-align: center;
+  color: rgb(38,38,38);
+  transition: color 0.3s linear;
+}
+
+#title-projects-black  {
+  color: white;
+  transition: color 0.3s linear;
 }
 
 #div-projects {
@@ -40,8 +54,8 @@
   /* border: 1px solid blue; */
 }
 
-.project {
-  background-color: rgb(51,51,51);
+.project, .project-black {
+  background-color: rgb(219, 219, 219);
   border-radius: 6px;
   height: 450px;
   width: 25%;
@@ -51,6 +65,19 @@
   flex-direction: column;
   align-items: center;
   margin: 5% 2%;
+  transition: background 0.3s linear;
+}
+
+.project:hover {
+  background-color: rgb(170, 170, 170);
+}
+
+.project-black {
+  background-color: rgb(51,51,51);
+}
+
+.project-black:hover {
+  background-color: rgb(70, 70, 70);
 }
 
 .project-text {
@@ -60,16 +87,19 @@
   margin: 2%;
 }
 
-.project:hover {
-  background-color: rgb(70, 70, 70);
-}
-
-.project-text p {
+.p-project, .p-project-black {
   font-size: 20px;
   margin-top: 5%;
   width: 100%;
   /* border: 1px solid yellow; */
   word-wrap: break-word;
+  color: rgb(38,38,38);
+  transition: color 0.3s linear;
+}
+
+.p-project-black {
+  color: white;
+  transition: color 0.3s linear;
 }
 
 .descreve-project {
@@ -79,8 +109,15 @@
   justify-content: space-between;
 }
 
-.descreve-project h3 {
+.h3-title-project, .h3-title-project-black {
   font-size: 25px;
+  color: rgb(38,38,38);
+  transition: color 0.3s linear;
+}
+
+.h3-title-project-black {
+  color: white;
+  transition: color 0.3s linear;
 }
 
 .imgs-icones {

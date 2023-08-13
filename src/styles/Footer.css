@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cinzel:wght@600&family=Kumar+One+Outline&family=Ledger&family=Londrina+Outline&family=Londrina+Shadow&family=Nova+Square&family=Quicksand:wght@300;500&family=Roboto:wght@100&family=Saira+Stencil+One&family=Train+One&display=swap');
 
-#footer-Foo {
-  background-color: rgb(51,51,51);
+#footer-Foo, #footer-Foo-black  {
+  background-color: rgb(219, 219, 219);
   height: 20vh;
+  transition: background 0.3s linear;
+}
+
+#footer-Foo-black {
+  background-color: rgb(51,51,51);
+  transition: background 0.3s linear;
 }
 
 #div-footer {
@@ -15,9 +21,16 @@
   /* border: 1px solid green; */
 }
 
-#title-contact {
+#title-contact, #title-contact-black {
   text-align: center;
   font-family: 'Nova Square', cursive;
+  color: rgb(51,51,51);
+  transition: color 0.3s linear;
+}
+
+#title-contact-black {
+  color: white;
+  transition: color 0.3s linear;
 }
 
 .redes-footer {
@@ -41,8 +54,25 @@
   margin: 0 auto;
 }
 
-#msg-final {
+#email-id {
+  color: rgb(51,51,51);
+  transition: color 0.3s linear;
+}
+
+#email-id-black {
+  color: white;
+  transition: color 0.3s linear;
+}
+
+#msg-final, #msg-final-black {
   text-align: center;
+  color: rgb(51,51,51);
+  transition: color 0.3s linear;
+}
+
+#msg-final-black {
+  color: white;
+  transition: color 0.3s linear;
 }
 
 @media (max-width: 1050px) {
