@@ -5,7 +5,7 @@ import skillsArray from '../services/skills';
 import ThemeContext from '../Context/themeContext';
 
 function Skills() {
-  const textDefaultTec = 'Passe o mouse por cima da habilidade ao lado para saber mais.'
+  const textDefaultTec = 'Passe o mouse por cima da habilidade que deseja saber mais.'
   const [descriTec, setDescriTec] = useState(textDefaultTec);
 
   const showDescriSkill = (skill) => {
@@ -52,69 +52,3 @@ function Skills() {
 }
 
 export default Skills;
-
-// </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('css'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" />
-//                 CSS
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('javascript'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javaScript" />
-//                 JavaScript
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('react'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
-//                 React
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('redux'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux" />
-//                 Redux
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('jest'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest" />
-//                 Jest
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('rtl'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://testing-library.com/img/octopus-128x128.png" alt="react testing library" />
-//                 RTL
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('git'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" />
-//                 Git
-//               </li>
-//               <li
-//                 className="li-tecs"
-//                 onMouseOver={ () => { showDescriSkill('github'); } }
-//                 onMouseOut={ () => { defaulTextTec(); } }
-//               >
-//                 <img className="img-tec" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
-//                 Github
-//               </li>

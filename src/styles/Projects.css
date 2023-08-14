@@ -14,7 +14,6 @@
 
 #section-projects-black {
   background-color: rgb(38,38,38);
-  transition: background 0.3s linear;
 }
 
 
@@ -155,24 +154,24 @@
 }
 
 @media (max-width: 1000px) {
-  .project {
+  .project, .project-black {
     width: 40%;
   }
 }
 
 @media (max-width: 680px) {
-  .project {
+  .project, .project-black {
     width: 55%;
   }
 }
 
 @media (max-width: 465px) {
-  .project {
+  .project, .project-black {
     width: 85%;
     height: 340px;
   }
 
-  .project-text p {
+  .project-text p, .project-black p {
     font-size: 14px;
   }
 

@@ -75,12 +75,6 @@
   transition: color 0.3s linear;
 }
 
-@media (max-width: 1050px) {
-  .redes-footer {
-    /* flex-wrap: wrap; */
-  }
-}
-
 @media (max-width: 480px) {
   .redes-footer {
     width: 70%;
@@ -96,15 +90,15 @@
     width: 100%;
   }
 
-  #title-contact {
+  #title-contact, #title-contact-black {
     font-size: 15px;
   }
 
-  #email-id {
+  #email-id, #email-id-black {
     font-size: 10px;
   }
 
-  #msg-final {
+  #msg-final, #msg-final-black {
     font-size: 12px;
   }
 }

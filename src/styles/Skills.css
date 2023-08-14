@@ -4,7 +4,7 @@
   display: flex;
 }
 
-#section-skills {
+#section-skills, #section-skills-black  {
   background-color: rgb(219, 219, 219);
   height: 100%;
   padding-top: 5%;
@@ -13,12 +13,10 @@
 
 #section-skills-black {
   background-color: rgb(51,51,51);
-  height: 100%;
-  padding-top: 5%;
   transition: background 0.3s linear;
 }
 
-#title-skills {
+#title-skills, #title-skills-black {
   font-family: 'Bungee Outline', cursive;
   text-align: center;
   font-size: 40px;
@@ -27,11 +25,7 @@
 }
 
 #title-skills-black {
-  font-family: 'Bungee Outline', cursive;
-  text-align: center;
-  font-size: 40px;
   color: white;
-  transition: color 0.3s linear;
 }
 
 #div-list {
@@ -53,7 +47,7 @@
   width: 60%;
 }
 
-.li-tecs {
+.li-tecs, .li-tecs-black {
   background-color: rgb(145, 145, 145);
   display: flex;
   border-radius: 10px;
@@ -70,18 +64,7 @@
 
 .li-tecs-black {
   background-color: rgb(145, 145, 145);
-  display: flex;
-  border-radius: 10px;
-  font-family: 'Nova Square', cursive;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
-  height: 38%;
-  text-align: center;
-  width: 15%;
-  margin: 1%;
   opacity: .5;
-  transition: background 0.3s linear;
 }
 
 .li-tecs-black:hover, .li-tecs:hover  {
@@ -95,7 +78,7 @@
   width: 80%;
 }
 
-#div-disc-tec {
+#div-disc-tec, #div-disc-tec-black {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,15 +91,7 @@
 }
 
 #div-disc-tec-black {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Nova Square', cursive;
-  font-size: 150%;
-  height: 70%;
-  width: 30%;
   color: white;
-  transition: color 0.3s linear;
 }
 
 .div-hidden-skills {
@@ -135,7 +110,7 @@
     /* height: 100%; */
   }
 
-  .li-tecs {
+  .li-tecs, .li-tecs-black {
     /* width: 90%; Reduzindo a largura dos itens */
     margin: 5px 5px;
     text-align: center;
@@ -145,7 +120,7 @@
     width: 50%; /* Reduzindo o tamanho das imagens */
   }
 
-  #div-disc-tec {
+  #div-disc-tec, #div-disc-tec-black {
     width: 100%;
     margin-top: 20px;
     text-align: center;
@@ -154,11 +129,11 @@
 
 @media (max-width: 480px) {
   /* Estilos para telas menores, como dispositivos móveis de tamanho reduzido */
-  #title-skills {
+  #title-skills, #title-skills-black {
     font-size: 20px; /* Reduzindo o tamanho do título */
   }
 
-  .li-tecs {
+  .li-tecs, .li-tecs-black {
     width: 25%;
     margin: 5px 5px;
     font-size: 12px; /* Reduzindo o tamanho do texto */
@@ -168,7 +143,7 @@
     width: 30%; /* Reduzindo ainda mais o tamanho das imagens */
   }
 
-  #div-disc-tec {
+  #div-disc-tec, #div-disc-tec-black {
     font-size: 100%; /* Reduzindo o tamanho do texto de descrição */
   }
 }
