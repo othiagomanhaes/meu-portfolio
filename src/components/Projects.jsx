@@ -1,6 +1,6 @@
 import '../styles/Projects.css';
-import { useContext, useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
+import { useContext } from 'react';
+// import ScrollReveal from 'scrollreveal';
 import projects from '../services/projects';
 import ThemeContext from '../Context/themeContext';
 import imgLinkBlack from '../images/linkExternoBlack.png'

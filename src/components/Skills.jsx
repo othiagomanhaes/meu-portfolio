@@ -1,6 +1,6 @@
 import '../styles/Skills.css';
-import { useContext, useEffect, useState } from 'react';
-import ScrollReveal from 'scrollreveal';
+import { useContext, useState } from 'react';
+// import ScrollReveal from 'scrollreveal';
 import skillsArray from '../services/skills';
 import ThemeContext from '../Context/themeContext';
 

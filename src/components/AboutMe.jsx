@@ -1,7 +1,7 @@
 import '../styles/AboutMe.css';
 import imgEu from '../images/euImg.jpg';
-import ScrollReveal from 'scrollreveal';
-import { useContext, useEffect } from 'react';
+// import ScrollReveal from 'scrollreveal';
+import { useContext } from 'react';
 import ThemeContext from '../Context/themeContext';
 
 function AboutMe() {
