@@ -33,7 +33,7 @@ function Hero() {
       .pause(500)
       .delete(5)
       .pause(500)
-      .type("<b>Front-End Developer</b>")
+      .type("<b>Fullstack Developer</b>")
       .go();
   }, [])
   
