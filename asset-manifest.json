@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meu-portfolio/static/css/main.2d79011f.css",
-    "main.js": "/meu-portfolio/static/js/main.fa0b6b40.js",
+    "main.js": "/meu-portfolio/static/js/main.d61303ed.js",
     "static/js/787.e31b216d.chunk.js": "/meu-portfolio/static/js/787.e31b216d.chunk.js",
     "static/media/trunfo-herois.gif": "/meu-portfolio/static/media/trunfo-herois.5a6ea69e209cf1ac27eb.gif",
     "static/media/trybetunes-video.gif": "/meu-portfolio/static/media/trybetunes-video.09495278430c88769d36.gif",
@@ -12,11 +12,11 @@
     "static/media/linkedinBlack.png": "/meu-portfolio/static/media/linkedinBlack.032cf8a63be2f0f4d425.png",
     "index.html": "/meu-portfolio/index.html",
     "main.2d79011f.css.map": "/meu-portfolio/static/css/main.2d79011f.css.map",
-    "main.fa0b6b40.js.map": "/meu-portfolio/static/js/main.fa0b6b40.js.map",
+    "main.d61303ed.js.map": "/meu-portfolio/static/js/main.d61303ed.js.map",
     "787.e31b216d.chunk.js.map": "/meu-portfolio/static/js/787.e31b216d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d79011f.css",
-    "static/js/main.fa0b6b40.js"
+    "static/js/main.d61303ed.js"
   ]
 }
