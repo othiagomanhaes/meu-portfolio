@@ -100,6 +100,19 @@ const skills = [
     nome:'Mocha',
     texto: 'O Mocha é uma estrutura de teste JavaScript rica em recursos em execução no Node.js e no navegador, tornando o teste assíncrono simples e divertido.',
   },
+
+  {
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg',
+    nome:'Kotlin',
+    texto: 'Kotlin é uma linguagem de programação multiplataforma, orientada a objetos e funcional, concisa e estaticamente tipada, desenvolvida pela JetBrains.',
+  },
+
+  {
+    imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg',
+    nome:'Spring',
+    texto: 'O Spring é um framework open source para a plataforma Java. Ele é um framework não intrusivo, baseado nos padrões de projeto inversão de controle e injeção de dependência',
+  }
+
 ]
 
 export default skills;
